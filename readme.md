@@ -32,6 +32,14 @@ Bem-vindo ao **Assistente de Montagem de PC**, uma aplicação projetada para fa
 
 ---
 
+## 🛠️ Tecnologias Utilizadas
+- **Front-end**: JSP, HTML, CSS e JavaScript.
+- **Back-end**: Java com Jakarta Servlet.
+- **Banco de Dados**: MySQL.
+- **Metodologias**: DAO (Data Access Object).
+
+---
+
 ## 🖼️ Capturas de Tela
 
 ### Página Inicial
@@ -67,14 +75,6 @@ Bem-vindo ao **Assistente de Montagem de PC**, uma aplicação projetada para fa
 
 ### 🔹 Diagrama UML
 ![Diagrama UML](docs/diagrama-uml.png)
-
----
-
-## 🛠️ Tecnologias Utilizadas
-- **Front-end**: JSP, HTML, CSS e JavaScript.
-- **Back-end**: Java com Jakarta Servlet.
-- **Banco de Dados**: MySQL.
-- **Metodologias**: DAO (Data Access Object).
 
 ---
 
