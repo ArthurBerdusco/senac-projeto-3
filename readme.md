@@ -1,35 +1,85 @@
-# Projeto Integrador III - Assistente de montagem de PC:
+# 💻 Projeto Integrador III - Assistente de Montagem de PC
 
-Integrantes: Alexsandro Alves, Arthur Silva, Eliseu Ferreira, Kayke Ribeiro, Samuel Levi
-Professor: Enoque Leal
+Bem-vindo ao **Assistente de Montagem de PC**, uma aplicação projetada para facilitar a montagem de computadores personalizados, atendendo às necessidades do usuário com base em orçamento, finalidade e nível de conhecimento técnico.
 
-Principais requisitos:
+## 👥 Integrantes do Projeto
+- **Arthur Silva**
+- **Alexsandro Alves**
+- **Eliseu Ferreira**
+- **Kayke Ribeiro**
+- **Samuel Levi**
 
-Nosso projeto tem como principal objetivo: auxiliar o usuário a realizar a montagem de um pc personalizado que corresponda às suas necessidades.
-Que esteja de acordo com o seu orçamento, possibilitando ao usuário a inteligibilidade e facilidade mesmo para pessoas leigas
-com pouco ou nenhum conhecimento em especificações técnicas do hardware.
+### Professor Orientador
+- **Enoque Leal**
 
--Mostrar peças de computadores de acordo com a finalidade: Para jogos, ou para uso profissional (que não necessita de um hardware muito potente)
--Usuario vai ter um PC pré montado, para que ele só precise comprar as peças.
--
+---
 
--Pagina Inicial
--pagina de login
--pagina de cadastro
--CRUD - Operador site
--Tela Usuario
--Tela de Categorias
--Tela de especificacoes
+## 🚀 Principais Funcionalidades
+- **Montagem Personalizada**: Sugestão de componentes de hardware de acordo com o orçamento e a finalidade (jogos ou uso profissional).
+- **Facilidade para Usuários Leigos**: Interface intuitiva que não exige conhecimento técnico prévio sobre hardware.
+- **PC Pré-Montado**: Proposta de um PC já configurado para facilitar a aquisição das peças pelo usuário.
 
+---
 
+## 🛠️ Requisitos do Sistema
+1. **Página Inicial**: Apresentação do sistema e funcionalidades.
+2. **Página de Login**: Acesso restrito para usuários cadastrados.
+3. **Página de Cadastro**: Registro de novos usuários.
+4. **CRUD para Operadores**: Ferramentas administrativas para gerenciar o sistema.
+5. **Tela do Usuário**: Interface para escolha de tipo de PC (gamer ou profissional).
+6. **Tela de Categorias**: Escolha de configurações específicas, como jogos ou programas.
+7. **Tela de Especificações**: Apresentação detalhada dos componentes sugeridos para o usuário.
 
-![Tela principal - Sistema assistente de montagem de PC](docs/tela-principal.png)
-![Tela Login - Sistema assistente de montagem de PC](docs/Tela-login.png)
-![Tela cadastro - Sistema assistente de montagem de PC](docs/tela-de-cadastro.png)
-![Tela Usuario -Escolha do tipo de pc - Profissional ou Gamer](docs/tela-usuario.png)
-![Tela Categorias - Escolha o PC de acordo com o game](docs/tela-categorias.png)
-![Tela Especificações Gamer - Montagem do pc - apresentação das informações para o usuário](docs/tela-especificacoes.png)
-![Tela Especificações Pro - Montagem do Pc Profissional](docs/tela-especificacoes-pro.png)
-![ERD Lógico - Sistema assistente de montagem de PC](docs/er-logico.png).
-![ERD Conceitual - Sistema assistente de montagem de PC](docs/er-conceitual.png)
-![UML - Sistema assistente de montagem de PC](docs/diagrama-uml.png)
+---
+
+## 🖼️ Capturas de Tela
+
+### Página Inicial
+![Tela principal](docs/tela-principal.png)
+
+### Login
+![Tela Login](docs/tela-login.png)
+
+### Cadastro
+![Tela Cadastro](docs/tela-de-cadastro.png)
+
+### Escolha do Tipo de PC
+![Tela Usuário](docs/tela-usuario.png)
+
+### Categorias
+![Tela Categorias](docs/tela-categorias.png)
+
+### Especificações Gamer
+![Tela Especificações Gamer](docs/tela-especificacoes.png)
+
+### Especificações Profissionais
+![Tela Especificações Pro](docs/tela-especificacoes-pro.png)
+
+---
+
+## 📊 Estrutura do Sistema
+
+### 🔹 Diagrama ERD Lógico
+![ERD Lógico](docs/er-logico.png)
+
+### 🔹 Diagrama ERD Conceitual
+![ERD Conceitual](docs/er-conceitual.png)
+
+### 🔹 Diagrama UML
+![Diagrama UML](docs/diagrama-uml.png)
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+- **Front-end**: HTML, CSS e JavaScript.
+- **Back-end**: Java com Spring Boot.
+- **Banco de Dados**: MySQL.
+- **Metodologias**: MVC (Model-View-Controller).
+
+---
+
+## 📦 Como Executar o Projeto
+
+### 1. Clone o Repositório
+```bash
+git clone https://github.com/seu-repositorio/assistente-montagem-pc.git
