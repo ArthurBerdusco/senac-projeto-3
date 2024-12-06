@@ -1,0 +1,89 @@
+CREATE TABLE ACCOUNT (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    NAME VARCHAR(255),
+    PASSWORD VARCHAR(255),
+    ADMIN BOOLEAN
+);
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+CREATE TABLE COMPUTER (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    NAME VARCHAR(255),
+    CPU VARCHAR(255),
+    GPU VARCHAR(255),
+    RAM VARCHAR(255),
+    TIPO VARCHAR(255),
+    USO VARCHAR(255),
+    DESEMPENHO VARCHAR(255)
+);
+
+////////////////////////////////////DADOS///////////////////////////////////////////////////////////////
+
+-- Gamer
+-- Inserir dois computadores para o jogo League of Legends
+INSERT INTO COMPUTER (NAME, CPU, GPU, RAM, TIPO, USO, DESEMPENHO) VALUES
+('Computer1_LoL', 'Intel I3', 'Asus. Cerberus - GeForce GTX 1050 Ti', '16GB', 'gamer', 'league-of-legends', 'minimo'),
+('Computer2_LoL', 'Intel I5', 'Gigabyte. GeForce GTX 1660 Super OC', '32GB', 'gamer', 'league-of-legends', 'maximo');
+
+-- Inserir dois computadores para o jogo Warzone
+INSERT INTO COMPUTER (NAME, CPU, GPU, RAM, TIPO, USO, DESEMPENHO) VALUES
+('Computer1_Warzone', 'Intel I7', 'XFX. AMD XFX Radeon RX 6600', '8GB', 'gamer', 'warzone', 'minimo'),
+('Computer2_Warzone', 'Intel I9', 'PCYES. RADEON RX 550 - GRAFFITI SERIES', '16GB', 'gamer', 'warzone', 'maximo');
+
+-- Inserir dois computadores para o jogo Fifa
+INSERT INTO COMPUTER (NAME, CPU, GPU, RAM, TIPO, USO, DESEMPENHO) VALUES
+('Computer1_Fifa', 'Intel I3', 'Zotac. Nvidia GT730', '32GB', 'gamer', 'fifa', 'minimo'),
+('Computer2_Fifa', 'Intel I5', 'Asus. Cerberus - GeForce GTX 1050 Ti', '64GB', 'gamer', 'fifa', 'maximo');
+
+-- Inserir dois computadores para o jogo The Witcher
+INSERT INTO COMPUTER (NAME, CPU, GPU, RAM, TIPO, USO, DESEMPENHO) VALUES
+('Computer1_Witcher', 'Intel I7', 'Gigabyte. GeForce GTX 1660 Super OC', '16GB', 'gamer', 'the-witcher', 'minimo'),
+('Computer2_Witcher', 'Intel I9', 'XFX. AMD XFX Radeon RX 6600', '32GB', 'gamer', 'the-witcher', 'maximo');
+
+-- Inserir dois computadores para o jogo The Sims
+INSERT INTO COMPUTER (NAME, CPU, GPU, RAM, TIPO, USO, DESEMPENHO) VALUES
+('Computer1_Sims', 'Intel I3', 'PCYES. RADEON RX 550 - GRAFFITI SERIES', '16GB', 'gamer', 'the-sims', 'minimo'),
+('Computer2_Sims', 'Intel I5', 'Zotac. Nvidia GT730', '32GB', 'gamer', 'the-sims', 'maximo');
+
+-- Inserir dois computadores para o jogo It Takes Two
+INSERT INTO COMPUTER (NAME, CPU, GPU, RAM, TIPO, USO, DESEMPENHO) VALUES
+('Computer1_TakeTwo', 'Intel I7', 'Asus. Cerberus - GeForce GTX 1050 Ti', '8GB', 'gamer', 'it-take-two', 'minimo'),
+('Computer2_TakeTwo', 'Intel I9', 'Gigabyte. GeForce GTX 1660 Super OC', '16GB', 'gamer', 'it-take-two', 'maximo');
+
+
+-- Profissionais
+-- Inserir dois computadores para edição de vídeo
+INSERT INTO COMPUTER (NAME, CPU, GPU, RAM, TIPO, USO, DESEMPENHO) VALUES
+('Computer1_EdicaoVideo', 'Intel I5', 'Asus. Cerberus - GeForce GTX 1050 Ti', '32GB', 'profissional', 'edicao-de-video', 'minimo'),
+('Computer2_EdicaoVideo', 'Intel I7', 'Gigabyte. GeForce GTX 1660 Super OC', '64GB', 'profissional', 'edicao-de-video', 'maximo');
+
+-- Inserir dois computadores para design gráfico
+INSERT INTO COMPUTER (NAME, CPU, GPU, RAM, TIPO, USO, DESEMPENHO) VALUES
+('Computer1_DesignGrafico', 'Intel I3', 'PCYES. RADEON RX 550 - GRAFFITI SERIES', '16GB', 'profissional', 'design-grafico', 'minimo'),
+('Computer2_DesignGrafico', 'Intel I5', 'Zotac. Nvidia GT730', '32GB', 'profissional', 'design-grafico', 'maximo');
+
+-- Inserir dois computadores para desenvolvimento de software
+INSERT INTO COMPUTER (NAME, CPU, GPU, RAM, TIPO, USO, DESEMPENHO) VALUES
+('Computer1_DevSoftware', 'Intel I7', 'Asus. Cerberus - GeForce GTX 1050 Ti', '16GB', 'profissional', 'desenvolvimento-de-software', 'minimo'),
+('Computer2_DevSoftware', 'Intel I9', 'Gigabyte. GeForce GTX 1660 Super OC', '32GB', 'profissional', 'desenvolvimento-de-software', 'maximo');
+
+-- Inserir dois computadores para renderização 3D
+INSERT INTO COMPUTER (NAME, CPU, GPU, RAM, TIPO, USO, DESEMPENHO) VALUES
+('Computer1_Renderizacao3D', 'Intel I5', 'XFX. AMD XFX Radeon RX 6600', '32GB', 'profissional', '3d', 'minimo'),
+('Computer2_Renderizacao3D', 'Intel I7', 'PCYES. RADEON RX 550 - GRAFFITI SERIES', '64GB', 'profissional', '3d', 'maximo');
+
+-- Inserir dois computadores para engenharia
+INSERT INTO COMPUTER (NAME, CPU, GPU, RAM, TIPO, USO, DESEMPENHO) VALUES
+('Computer1_Engenharia', 'Intel I7', 'Zotac. Nvidia GT730', '16GB', 'profissional', 'engenharia', 'minimo'),
+('Computer2_Engenharia', 'Intel I9', 'Asus. Cerberus - GeForce GTX 1050 Ti', '32GB', 'profissional', 'engenharia', 'maximo');
+
+-- Inserir dois computadores para desenvolvimento de jogos
+INSERT INTO COMPUTER (NAME, CPU, GPU, RAM, TIPO, USO, DESEMPENHO) VALUES
+('Computer1_DevJogos', 'Intel I5', 'Gigabyte. GeForce GTX 1660 Super OC', '16GB', 'profissional', 'desenvolvimento-de-jogos', 'minimo'),
+('Computer2_DevJogos', 'Intel I7', 'XFX. AMD XFX Radeon RX 6600', '32GB', 'profissional', 'desenvolvimento-de-jogos', 'maximo');
+
+-- Inserir dois computadores para análise financeira
+INSERT INTO COMPUTER (NAME, CPU, GPU, RAM, TIPO, USO, DESEMPENHO) VALUES
+('Computer1_AnaliseFinanceira', 'Intel I3', 'PCYES. RADEON RX 550 - GRAFFITI SERIES', '16GB', 'profissional', 'analise-financeira', 'minimo'),
+('Computer2_AnaliseFinanceira', 'Intel I5', 'Zotac. Nvidia GT730', '32GB', 'profissional', 'analise-financeira', 'maximo');
