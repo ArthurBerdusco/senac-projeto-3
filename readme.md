@@ -71,10 +71,10 @@ Bem-vindo ao **Assistente de Montagem de PC**, uma aplicação projetada para fa
 ---
 
 ## 🛠️ Tecnologias Utilizadas
-- **Front-end**: HTML, CSS e JavaScript.
-- **Back-end**: Java com Spring Boot.
+- **Front-end**: JSP, HTML, CSS e JavaScript.
+- **Back-end**: Java com Jakarta Servlet.
 - **Banco de Dados**: MySQL.
-- **Metodologias**: MVC (Model-View-Controller).
+- **Metodologias**: DAO (Data Access Object).
 
 ---
 
